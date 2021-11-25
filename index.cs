@@ -11,7 +11,7 @@ namespace BoilerPlate {
             MyName();
         }
 
-        string MyName() {
+        static string MyName() {
             Console.WriteLine('Please, enter your name: ');
 
             string userName = Console.ReadLine();
